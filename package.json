@@ -11,6 +11,7 @@
   "devDependencies": {
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
+    "@types/react-paginate": "^7.1.4",
     "@vitejs/plugin-react": "^4.7.0",
     "glob": "^11.0.0",
     "postcss": "^8.4.41",
@@ -21,11 +22,13 @@
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "@tanstack/react-query": "^5.97.0",
     "axios": "^1.13.6",
     "modern-normalize": "^3.0.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-hot-toast": "^2.6.0",
+    "react-paginate": "^8.3.0",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
   }
